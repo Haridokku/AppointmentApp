@@ -27,7 +27,14 @@
   width: 80%;
 }
 .img {
-  width: 250px;
+  display:none;
+  
+}
+@media screen and (min-width:768px){
+  .img{
+    display:block;
+    width: 250px;
+  }
 }
 .head {
   color: #171f46;

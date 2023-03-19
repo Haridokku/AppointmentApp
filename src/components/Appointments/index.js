@@ -39,7 +39,7 @@ class Appointments extends Component {
   }
 
   onChangeDate = event => {
-    this.setState({titleInput: event.target.value})
+    this.setState({dateInput: event.target.value})
   }
 
   changeImage = id => {
